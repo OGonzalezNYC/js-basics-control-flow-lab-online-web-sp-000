@@ -18,12 +18,12 @@ function switchOnCharmFromTip(tip) {
   switch (tip) {
   case tip === 'generous':
   response = "Thank you so much.";
-  break
+  break;
   case tip !== 'generous' && tip !== 0:
-  return "Thank you.";
-  break
+  response = "Thank you.";
+  break;
   default
-  return "Bye."}
+  response = "Bye."}
 }
 //"Thank you so much." if the tip is generous
 //"Thank you." if the tip is not as generous
