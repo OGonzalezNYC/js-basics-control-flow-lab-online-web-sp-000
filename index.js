@@ -20,11 +20,12 @@ function switchOnCharmFromTip(tip) {
   return "Thank you so much.";
   //break;
   case 'not as generous':
-  response = "Thank you.";
-  break;
+  return "Thank you.";
+  //break;
   default:
-  response = "Bye."}
-  return response;
+  //response = "Bye."}
+  //return response;
+  return "Bye."}
 }
 //"Thank you so much." if the tip is generous
 //"Thank you." if the tip is not as generous
