@@ -14,7 +14,7 @@ function ternaryCheckCity(city) {
 //should return "No go." if the destination city is not NYC
 
 function switchOnCharmFromTip(tip) {
-  let response;
+  //let response;
   switch (tip) {
   case 'generous':
   return "Thank you so much.";
